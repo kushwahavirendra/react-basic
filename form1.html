@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    
+    <title>Document</title>
+</head>
+<body>
+    <div class="main">
+        <form action="http://www.google.com" method="get">
+            <!--all form element goes here-->
+            <h3>My Awesome Form</h3>
+            <hr/>
+            <div class="email-div">
+            <label for="email">Email</label>
+            <input id="email" type="text" name="email" placeholder="Email" maxlength="20"/>
+            </div>
+
+            <div class="passward-div">
+            <label for="passward">Passward</label>
+            <input id="passward" type="password" name="passward" placeholder="passward" />
+            </div>
+
+            <input type="submit" value="save" />
+            <div class="country">
+            <select name="country">
+                <option value="Ind">India</option>
+                <option value="usa">United state of America</option>
+                <option value="japan">Japan</option>
+                <option value="ch">China</option>
+                <option value="pak">pakistan</option>
+            </select>
+             </div>
+             <div>
+                <select name="state">
+                    <option value="Ind">Uttar Pradesh</option>
+                    <option value="usa">New Delhi</option>
+                    <option value="japan">Bihar</option>
+                    <option value="ch">Madhya pradesh</option>
+                    <option value="pak">Sikkim</option>
+                </select>
+             </div>
+             <div class="gender">
+                Male<input type="radio" name="gender" value="Male" />
+                Female<input type="radio" name="gender" value="Female" />
+                Others<input type="radio" name="gender" value="others"> 
+             </div>
+             <label>Hobbies</label>
+             <div class="Hobbies">
+                <input type="checkbox" name="hobby" value="singing" />singing
+                <input type="checkbox" name="hobby" value="dancing" />dancing
+                <input type="checkbox" name="hobby" value="painting" />Art
+                <input type="checkbox" name="hobby" value="playing" />cricket
+
+             </div>
+        </form>
+        <table  align="center" border="2px" radious="5px">
+            <tr align="center" >
+                <td colspan="2" >Sign Up page</td>
+            </tr>
+            <tr>
+                <td>FirstName</td>
+                <td><input type="text" name=" fname" placeholder="enter name"/></td>
+            </tr>
+            <tr>
+                <td>Last Name</td>
+                <td><input type="text" name="lname" placeholder="enter last name"/></td>
+            </tr>
+
+            <tr>
+                <td>Email</td>
+                <td><input type="email" name="email" placeholder="enter email"/></td>
+            </tr>
+            <tr>
+                <td>Passward</td>
+                <td><input type="password" name="passward" placeholder="enter passward" /></td>
+            </tr>
+            <tr>
+                <td>Confirm Passward</td>
+                <td>
+                    <input type="password" name="confirm passward" placeholder="enter confirm passward" />
+                </td>
+            </tr>
+        </table>
+
+    </div>
+</body>
+</html>
